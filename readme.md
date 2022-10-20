@@ -14,3 +14,10 @@
 - Date constructor
 - Transitions
 - Fixing conflicts between transitions and degree of rotation resets
+
+## **Day 3: CSS Variables**
+### *Concepts Included*
+- CSS Variables in :root
+- forEach()
+- dataset attributes
+- Selecting the whole document
