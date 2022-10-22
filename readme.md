@@ -31,3 +31,8 @@
 - console.table() 
 - calling querySelector on elements other than document
 - putting split strings into separate variables
+
+## **Day 5: Flex Panel Gallery**
+### *Concepts Included*
+- Flexboxes
+- Listening for transitionend event
