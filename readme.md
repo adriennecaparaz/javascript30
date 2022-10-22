@@ -21,3 +21,13 @@
 - forEach()
 - dataset attributes
 - Selecting the whole document
+
+## **Day 4: Array Cardio Day 1**
+### *Concepts Included*
+- filter()
+- map()
+- sort()
+- reduce()
+- console.table() 
+- calling querySelector on elements other than document
+- putting split strings into separate variables
