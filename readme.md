@@ -59,3 +59,14 @@
 - returning HTML string with variables
 - Number with commas RegEx
 - replace()
+
+## **Day 7: Array Cardio Day 2**
+
+### *Concepts Included*
+
+- some()
+- every()
+- find()
+- findIndex()
+- splice()
+- console.log({})
