@@ -46,3 +46,16 @@
 
 - Flexboxes
 - Listening for transitionend event
+
+## **Day 6: Type Ahead**
+
+### *Concepts Included*
+
+- JSON
+- fetch()
+- then()
+- spread operator
+- RegEx with variables
+- returning HTML string with variables
+- Number with commas RegEx
+- replace()
