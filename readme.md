@@ -70,3 +70,11 @@
 - findIndex()
 - splice()
 - console.log({})
+
+## **Day 8: Fun with HTML5 Canvas**
+
+### *Concepts Included*
+
+- ctx properties
+- setting canvas to window dimensions
+- drawing to canvas
