@@ -93,3 +93,10 @@
 - console.group() & console.groupCollapsed()
 - console.count()
 - console.time() & console.timeEnd()
+
+## **Day 10: Hold Shift and Check Checkboxes**
+
+### *Concepts Included*
+
+- e.shiftKey
+- this
