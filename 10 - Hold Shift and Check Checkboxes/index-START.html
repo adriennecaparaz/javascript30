@@ -100,14 +100,14 @@
   let firstSelected = -1;
 
   function checkBoxes(e) {
-    if (e.shiftKey || firstSelected > 0) {
-      const min = Math.min(firstSelected, items.indexOf(e.target));
-      const max = Math.max(firstSelected, items.indexOf(e.target));
+    if (e.shiftKey && firstSelected >= 0) {
+      const min = Math.min(firstSelected, items.indexOf(this));
+      const max = Math.max(firstSelected, items.indexOf(this));
       for (i = min; i <= max; i++) {
         items[i].checked = true;
       }
     }
-    firstSelected = items.indexOf(e.target);
+    firstSelected = items.indexOf(this);
   }
 
   items.forEach(item => item.addEventListener('click', checkBoxes))
