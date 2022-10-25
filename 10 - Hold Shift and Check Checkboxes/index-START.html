@@ -96,6 +96,32 @@
   </div>
 
 <script>
+  const items = [...document.querySelectorAll('.inbox input[type="checkbox"]')];
+  let firstSelected = -1;
+  let shiftPressed = false;
+
+  function checkBoxes(e) {
+    if (!shiftPressed || firstSelected < 0) {
+      firstSelected = items.indexOf(e.target);
+    }
+    else {
+      const min = Math.min(firstSelected, items.indexOf(e.target));
+      const max = Math.max(firstSelected, items.indexOf(e.target));
+      for (i = min; i <= max; i++) {
+        items[i].checked = true;
+      }
+    }
+  }
+
+  function toggleShift(e) {
+    if (e.key === 'Shift') {
+      shiftPressed = !shiftPressed;
+    }
+  }
+
+  items.forEach(item => item.addEventListener('click', checkBoxes))
+  addEventListener('keydown', toggleShift);
+  addEventListener('keyup', toggleShift);
 </script>
 </body>
 </html>
