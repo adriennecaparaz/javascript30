@@ -98,7 +98,6 @@
 <script>
   const items = [...document.querySelectorAll('.inbox input[type="checkbox"]')];
   let firstSelected = -1;
-  let shiftPressed = false;
 
   function checkBoxes(e) {
     if (e.shiftKey || firstSelected > 0) {
