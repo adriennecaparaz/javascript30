@@ -78,3 +78,18 @@
 - ctx properties
 - setting canvas to window dimensions
 - drawing to canvas
+
+## **Day 9: Dev Tools Domination**
+
+### *Concepts Included*
+
+- break on attribute modifications
+- console.log()
+- console.warn()
+- console.error()
+- console.info()
+- console.clear()
+- console.dir()
+- console.group() & console.groupCollapsed()
+- console.count()
+- console.time() & console.timeEnd()
