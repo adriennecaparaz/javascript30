@@ -119,3 +119,12 @@
 - join()
 - pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length)
 - includes()
+
+## **Day 13: Slide In on Scroll**
+
+### *Concepts Included*
+
+- debounce()
+- window.scrollY
+- window.innerHeight
+- Calculating positions relative to window
