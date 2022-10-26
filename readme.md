@@ -100,3 +100,14 @@
 
 - e.shiftKey
 - this
+
+## **Day 11: Custom Video Player**
+
+### *Concepts Included*
+
+- HTML5 video player properties
+- Fullscreen API
+- parseFloat()
+- Events: play, pause, timeupdate
+- Flag variables
+- (e) => mousedown && scrub(e)
