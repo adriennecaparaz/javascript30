@@ -111,3 +111,11 @@
 - Events: play, pause, timeupdate
 - Flag variables
 - (e) => mousedown && scrub(e)
+
+## **Day 12: Key Sequence Detection**
+
+### *Concepts Included*
+
+- join()
+- pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length)
+- includes()
