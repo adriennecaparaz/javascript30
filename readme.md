@@ -128,3 +128,12 @@
 - window.scrollY
 - window.innerHeight
 - Calculating positions relative to window
+
+## **Day 14: JS Reference vs Copy**
+
+### *Concepts Included*
+
+- Strings, numbers, and booleans vs. objects and arrays
+- Copy methods: slice(), concat(), spread, Array.from()
+- Object.assign() - only 1 level deep
+- Poor man's deep clone: JSON.parse(JSON.stringify())
